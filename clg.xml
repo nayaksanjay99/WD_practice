@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE dept[
+<!ELEMENT dept (division+)>
+<!ATTLIST division divi CDATA "A">
+<!ELEMENT division (student+)>
+<!ELEMENT student (sapid,name,pointer)>
+<!ELEMENT sapid (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT pointer (#PCDATA)>
+]>
+
+<?xml-stylesheet type="text/xsl" href="clg.xsl" ?>
+
+<dept>
+    <division>
+        <student>
+            <sapid>60004170100</sapid>
+            <name>Samip</name>
+            <pointer>9</pointer>
+        </student>
+        <student>
+            <sapid>60004170101</sapid>
+            <name>Sanjay</name>
+            <pointer>10</pointer>
+        </student>
+    </division>
+    <division>
+        <student>
+            <sapid>60004170100</sapid>
+            <name>Samip</name>
+            <pointer>9</pointer>
+        </student>
+        <student>
+            <sapid>60004170101</sapid>
+            <name>Sanjay</name>
+            <pointer>10</pointer>
+        </student>
+    </division>
+</dept>
