@@ -13,7 +13,7 @@
 <?xml-stylesheet type="text/xsl" href="clg.xsl" ?>
 
 <dept>
-    <division>
+    <division divi="A">
         <student>
             <sapid>60004170100</sapid>
             <name>Samip</name>
@@ -25,7 +25,7 @@
             <pointer>10</pointer>
         </student>
     </division>
-    <division>
+    <division divi="B">
         <student>
             <sapid>60004170100</sapid>
             <name>Samip</name>
